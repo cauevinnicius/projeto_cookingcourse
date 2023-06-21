@@ -1,0 +1,147 @@
+*
+{margin: 0;
+padding: 0;}
+
+body
+{background-color: #f0f0f0;
+font-family: 'Lato', sans-serif;}
+
+.header
+{background-color: #edd484;
+height: 130px;
+text-align: center;
+padding-top: 10px;}
+
+.header img
+{height: 120px;}
+
+.brownie
+{display: center;
+justify-content: center;
+align-items: center;}
+
+.brownie img
+{height: 500px;
+padding-top: 50px;
+display: block;
+margin:0 auto;}
+
+.title
+{font-weight: 700;
+font-size: 50px;
+margin-top: 30px;}
+
+.card
+{width: 500px;
+padding: 50px;
+background-color: white;
+margin: 50px auto;
+border-radius: 8px;
+font-weight: 300;}
+
+h1
+{color: #edd484;
+font-weight: 400;
+text-align: center;
+margin-bottom: 20px;}
+
+li
+{list-style-position: inside;
+line-height: 30px;}
+
+ul
+{margin-bottom: 40px;}
+
+a 
+{text-decoration: none;
+background-color: #edd484;
+color: white;
+padding: 15px;
+font-weight: 400;
+font-size: 20px;
+border-radius: 30px;
+display: flex;
+align-items: center;
+justify-content: center;}
+
+a:hover
+{background-color: #e0ba3e;}
+
+h3
+{
+font-weight: 400;
+text-align: center;
+margin-bottom: 20px;}
+
+section .container,
+.contact-sections
+{display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 16px}
+
+.logos-list img
+{height: 24px;}
+
+.logos-list li
+{display: inline;
+margin: 8px}
+
+.social-links img
+{height: 24px;}
+
+.social-links li
+{display: inline;
+margin-right: 8px;}
+
+.social-links li a
+{text-decoration: none;}
+
+#contact .container 
+{display: block;
+align-items: center;
+justify-content: center;}
+
+.contact-methods  
+{display: flex;
+justify-content: center;
+align-items: center;}
+
+form input, form textarea, form button 
+{display: block;
+width: 320px;
+margin-bottom: 5px;
+padding: 12px;
+margin: 5px;
+font-family: 'Lato', sans-serif;}
+
+form textarea
+{resize: none;
+height: 180px;}
+
+form button
+{text-decoration: none;
+background-color: #edd484;
+color: white;
+padding: 20px;
+border-radius: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: auto;
+font-weight: 50;
+font-size: 20px;
+height: 24px;}
+
+form button:hover
+{background-color: #e0ba3e;}
+
+input:focus, textarea:focus
+{outline-color: #edd484;}
+
+footer
+{background-color: #edd484;
+color: white;
+padding: 16px 0;
+text-align: center;
+padding-top: 30px;}
